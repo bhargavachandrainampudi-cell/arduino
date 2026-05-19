@@ -1,11 +1,12 @@
+int 4=a
 void setup() {
-  pinMode(4, OUTPUT);
+  pinMode(a, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(4, HIGH);
+  digitalWrite(a, HIGH);
   delay(1000);
-  digitalWrite(4, LOW);
+  digitalWrite(a, LOW);
   delay(1000);
 }
 
