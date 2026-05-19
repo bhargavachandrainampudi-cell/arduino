@@ -1,4 +1,4 @@
-int 4=a
+int a=4;
 void setup() {
   pinMode(a, OUTPUT);
 }
