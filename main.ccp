@@ -1,12 +1,19 @@
+int doubleNumber(int number)
+{
+int result = number * 2;
+return result; 
+}
 int a=4;
+int real
 void setup() {
-  pinMode(a, OUTPUT);
+  int real = doubleNumber(a);
+  pinMode(real, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(a, HIGH);
+  digitalWrite(real, HIGH);
   delay(1000);
-  digitalWrite(a, LOW);
+  digitalWrite(real, LOW);
   delay(1000);
 }
 
