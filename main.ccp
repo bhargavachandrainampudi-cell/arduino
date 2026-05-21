@@ -6,7 +6,7 @@ return result;
 int a=4;
 int real
 void setup() {
-  int real = doubleNumber(a);
+  real = doubleNumber(a);
   pinMode(real, OUTPUT);
 }
 
